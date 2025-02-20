@@ -5,7 +5,7 @@ async function globalSetup(config: FullConfig) {
     console.log('Starting local server...');
     const server = spawn('npm', ['start']);
 
-    await new Promise(resolve => setTimeout(resolve, 3000)); // Чекаємо, поки сервер запуститься
+    await new Promise(resolve => setTimeout(resolve, 3000));
 }
 
 export default globalSetup;

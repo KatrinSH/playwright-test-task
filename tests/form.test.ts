@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { FormPage } from '../../pages/FormPage';
+import { FormPage } from './page-objects/FormPage';
 
 test.describe('Form Tests', () => {
     
